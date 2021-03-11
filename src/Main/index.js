@@ -8,7 +8,7 @@ class Main extends React.Component {
         return (
             <Router>
                 <Navbar/>
-                <Route path="/" exact component={Self} />
+                <Route path="/my-web-site" exact component={Self} />
             </Router>
         )
     }
