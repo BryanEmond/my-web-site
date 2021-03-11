@@ -1,10 +1,13 @@
 import { Avatar, Container, Grid, withStyles } from '@material-ui/core';
 import React from 'react';
-import me from '../../image/me.png'
+import me from '../../image/me.png';
+import Navbar from '../navbar/Navbar';
+
+console.log(Navbar.height)
 
 const useStyles = (theme) => ({
     style: {
-        height: '200vh'
+        height: `calc(100vh - 64px)`,
     },
     avatar: {
         height: theme.spacing(25),

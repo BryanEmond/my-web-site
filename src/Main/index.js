@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from './navbar';
+import Project from './Project';
 import Self from './Self';
 
 class Main extends React.Component {
@@ -8,7 +9,8 @@ class Main extends React.Component {
         return (
             <Router>
                 <Navbar/>
-                <Route path="/my-web-site" exact component={Self} />
+                <Self/>
+                <Project/>
             </Router>
         )
     }
