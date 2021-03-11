@@ -145,16 +145,16 @@ class Navbar extends React.Component {
                                 onClose={this.handleClose}
                             >
                                 <MenuItem onClick={this.handleClose}>
-                                    <Button color="inherit" component={Link} href="#">About Me</Button>
+                                    <Button color="inherit" component={Link} href="#" color="inherit">About Me</Button>
                                 </MenuItem>
                                 <MenuItem onClick={this.handleClose}>
-                                    <Button color="inherit" component={Link} href="#project">Project</Button>
+                                    <Button color="inherit" component={Link} href="#project" color="inherit">Project</Button>
                                 </MenuItem>
                                 <MenuItem onClick={this.handleClose}>
-                                    <Button color="inherit" component={Link} href="#skills">Skills</Button>
+                                    <Button color="inherit" component={Link} href="#skills" color="inherit">Skills</Button>
                                 </MenuItem>
                                 <MenuItem onClick={this.handleClose}>
-                                    <Button color="inherit" component={Link} href="#jobs">Jobs</Button>
+                                    <Button color="inherit" component={Link} href="#jobs" color="inherit">Jobs</Button>
                                 </MenuItem>
                             </Menu>
                         </Hidden>
